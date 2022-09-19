@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KzShop.Web", "KzShop.Web\KzShop.Web.csproj", "{BC5F1597-9041-43F0-A629-1D44B564C8E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KzShop.Web", "KzShop.Web\KzShop.Web.csproj", "{BC5F1597-9041-43F0-A629-1D44B564C8E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KzShop.BusinessLogic", "KzShop.BussinesLogic\KzShop.BusinessLogic.csproj", "{9B960A6F-D814-452B-8E5F-1FEDC6B2D15F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KzShop.DataAccess", "KzShop.DatAccess\KzShop.DataAccess.csproj", "{3A57251F-01EA-45EA-BD2F-2BC8A5350485}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{BC5F1597-9041-43F0-A629-1D44B564C8E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC5F1597-9041-43F0-A629-1D44B564C8E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC5F1597-9041-43F0-A629-1D44B564C8E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B960A6F-D814-452B-8E5F-1FEDC6B2D15F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B960A6F-D814-452B-8E5F-1FEDC6B2D15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B960A6F-D814-452B-8E5F-1FEDC6B2D15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B960A6F-D814-452B-8E5F-1FEDC6B2D15F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A57251F-01EA-45EA-BD2F-2BC8A5350485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A57251F-01EA-45EA-BD2F-2BC8A5350485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A57251F-01EA-45EA-BD2F-2BC8A5350485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A57251F-01EA-45EA-BD2F-2BC8A5350485}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
